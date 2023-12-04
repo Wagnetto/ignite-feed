@@ -1,9 +1,12 @@
 import styles from './Header.module.css';
 
-export function Header(){
+import igniteLogo from '../../assets/ignite-logo.png';
+
+
+export function Header(){    
     return (
         <header className={styles.header}>
-            <strong>Ignite feed</strong>
+            <img src={igniteLogo} alt="Logotipo ignite"/>            
         </header>
     )
 }
