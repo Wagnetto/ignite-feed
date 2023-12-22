@@ -20,7 +20,7 @@ export function Post() {
 
       <div className={styles.content}>
         <p>Fala, galera!</p>
-        <p>Acabei de subir mais um commit no meu projjeto</p>
+        <p>Acabei de subir mais um commit no meu projeto</p>
         <p>
           👉<a href="#"> Click the bait</a>
         </p>
